@@ -79,6 +79,8 @@ def main():
                     encrypt(pixel_value)
                 case 2:
                     decrypt()
+                case 0:
+                    break
         except ValueError:
             print('Please enter a valid choice.')
 
